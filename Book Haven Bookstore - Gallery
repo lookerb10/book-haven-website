@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Book Haven Bookstore</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div>
+            <img src="book-haven-logo.png" alt="Book Haven Bookstore Logo" width="200" height="80">
+        </div>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us/Contact</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Our Book Collection</h1>
+        <p>Explore our carefully curated selection of books across all genres. Click "Add to Cart" to purchase any title that catches your interest.</p>
+
+        <!-- Fiction Section -->
+        <section>
+            <h2>Fiction</h2>
+            <table border="1">
+                <tr>
+                    <th>Book Cover</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><img src="book-fiction1.jpg" alt="Where the Crawdads Sing" width="80" height="120"></td>
+                    <td>Where the Crawdads Sing</td>
+                    <td>Delia Owens</td>
+                    <td>$16.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-fiction2.jpg" alt="The Silent Patient" width="80" height="120"></td>
+                    <td>The Silent Patient</td>
+                    <td>Alex Michaelides</td>
+                    <td>$15.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-fiction3.jpg" alt="Circe" width="80" height="120"></td>
+                    <td>Circe</td>
+                    <td>Madeline Miller</td>
+                    <td>$17.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-fiction4.jpg" alt="The Thursday Murder Club" width="80" height="120"></td>
+                    <td>The Thursday Murder Club</td>
+                    <td>Richard Osman</td>
+                    <td>$16.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Non-Fiction Section -->
+        <section>
+            <h2>Non-Fiction</h2>
+            <table border="1">
+                <tr>
+                    <th>Book Cover</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><img src="book-nonfiction1.jpg" alt="Educated" width="80" height="120"></td>
+                    <td>Educated</td>
+                    <td>Tara Westover</td>
+                    <td>$16.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-nonfiction2.jpg" alt="Sapiens" width="80" height="120"></td>
+                    <td>Sapiens</td>
+                    <td>Yuval Noah Harari</td>
+                    <td>$18.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-nonfiction3.jpg" alt="Becoming" width="80" height="120"></td>
+                    <td>Becoming</td>
+                    <td>Michelle Obama</td>
+                    <td>$19.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-nonfiction4.jpg" alt="The Body Keeps the Score" width="80" height="120"></td>
+                    <td>The Body Keeps the Score</td>
+                    <td>Bessel van der Kolk</td>
+                    <td>$17.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Young Adult Section -->
+        <section>
+            <h2>Young Adult</h2>
+            <table border="1">
+                <tr>
+                    <th>Book Cover</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><img src="book-ya1.jpg" alt="They Both Die at the End" width="80" height="120"></td>
+                    <td>They Both Die at the End</td>
+                    <td>Adam Silvera</td>
+                    <td>$14.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-ya2.jpg" alt="The Hate U Give" width="80" height="120"></td>
+                    <td>The Hate U Give</td>
+                    <td>Angie Thomas</td>
+                    <td>$15.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-ya3.jpg" alt="Six of Crows" width="80" height="120"></td>
+                    <td>Six of Crows</td>
+                    <td>Leigh Bardugo</td>
+                    <td>$16.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="book-ya4.jpg" alt="Eleanor Oliphant Is Completely Fine" width="80" height="120"></td>
+                    <td>Eleanor Oliphant Is Completely Fine</td>
+                    <td>Gail Honeyman</td>
+                    <td>$15.99</td>
+                    <td><button type="button">Add to Cart</button></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Contact Information</h3>
+            <p>123 Literary Lane, Booktown, ST 12345</p>
+            <p>Phone: (555) 123-BOOK</p>
+            <p>Email: info@bookhavenbookstore.com</p>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <p>Facebook | Instagram | Twitter</p>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Subscribe for updates on new arrivals and events!</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Book Haven Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>

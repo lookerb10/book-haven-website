@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore - Your Literary Sanctuary</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div>
+            <img src="book-haven-logo.png" alt="Book Haven Bookstore Logo" width="200" height="80">
+        </div>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us/Contact</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <h1>Welcome to Book Haven Bookstore</h1>
+            <p>Your Literary Sanctuary in the Heart of the City</p>
+            <img src="bookstore-hero.jpg" alt="Cozy bookstore interior with reading nooks" width="800" height="400">
+        </section>
+
+        <!-- Featured Books Section -->
+        <section>
+            <h2>Featured Books This Month</h2>
+            <div>
+                <div>
+                    <img src="featured-book1.jpg" alt="The Seven Husbands of Evelyn Hugo" width="150" height="200">
+                    <h3>The Seven Husbands of Evelyn Hugo</h3>
+                    <p>by Taylor Jenkins Reid</p>
+                    <p>$16.99</p>
+                </div>
+                <div>
+                    <img src="featured-book2.jpg" alt="Atomic Habits" width="150" height="200">
+                    <h3>Atomic Habits</h3>
+                    <p>by James Clear</p>
+                    <p>$18.99</p>
+                </div>
+                <div>
+                    <img src="featured-book3.jpg" alt="The Midnight Library" width="150" height="200">
+                    <h3>The Midnight Library</h3>
+                    <p>by Matt Haig</p>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section>
+            <h2>About Book Haven</h2>
+            <p>For over 20 years, Book Haven has been a cornerstone of our community, providing book lovers with carefully curated selections, cozy reading spaces, and a welcoming atmosphere. Whether you're searching for the latest bestseller, a rare vintage edition, or simply want to browse our extensive collection, we're here to help you discover your next great read.</p>
+            <p>Our knowledgeable staff is passionate about books and ready to provide personalized recommendations. Visit us today and experience the magic of a true independent bookstore.</p>
+        </section>
+
+        <!-- Store Hours Section -->
+        <section>
+            <h2>Store Hours</h2>
+            <table border="1">
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9:00 AM - 8:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>9:00 AM - 9:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>10:00 AM - 6:00 PM</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Contact Information</h3>
+            <p>123 Literary Lane, Booktown, ST 12345</p>
+            <p>Phone: (555) 123-BOOK</p>
+            <p>Email: info@bookhavenbookstore.com</p>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <p>Facebook | Instagram | Twitter</p>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Subscribe for updates on new arrivals and events!</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Book Haven Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
