@@ -1,0 +1,8 @@
+﻿# OS & editor
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# system folders we never want
+AppData/
+VirtualBox*/
