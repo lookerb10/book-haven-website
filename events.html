@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events - Book Haven Bookstore</title>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <div>
-            <img src="book-haven-logo.png" alt="Book Haven Bookstore Logo" width="200" height="80">
+            <img src="https://via.placeholder.com/200x80.png?text=Logo" alt="Book Haven Bookstore Logo" width="200" height="80">
         </div>
-        
-        <!-- Navigation Menu -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,226 +20,16 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <h1>Upcoming Events at Book Haven</h1>
-        <p>Join us for exciting literary events, author readings, book clubs, and community gatherings. All events are free unless otherwise noted. Please call (555) 123-BOOK to reserve your spot!</p>
-
-        <!-- Featured Event Section -->
         <section>
-            <h2>Featured Event</h2>
-            <div>
-                <img src="author-reading-event.jpg" alt="Author reading event at Book Haven" width="400" height="250">
-                <div>
-                    <h3>Author Reading: "The Midnight Writer" by Rebecca Stone</h3>
-                    <p><strong>Date:</strong> Saturday, October 5th, 2024</p>
-                    <p><strong>Time:</strong> 7:00 PM - 8:30 PM</p>
-                    <p><strong>Location:</strong> Main Reading Area</p>
-                    <p>Join us for an evening with bestselling mystery author Rebecca Stone as she reads from her latest thriller "The Midnight Writer." Book signing and Q&A to follow. Light refreshments will be served.</p>
-                    <p><strong>Admission:</strong> Free (Book signing copies available for purchase)</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Upcoming Events Table -->
-        <section>
-            <h2>All Upcoming Events</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Event</th>
-                        <th>Location</th>
-                        <th>Cost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>October 5th</td>
-                        <td>7:00 PM</td>
-                        <td>Author Reading: Rebecca Stone</td>
-                        <td>Main Reading Area</td>
-                        <td>Free</td>
-                    </tr>
-                    <tr>
-                        <td>October 10th</td>
-                        <td>6:30 PM</td>
-                        <td>Book Club: "Educated" Discussion</td>
-                        <td>Community Room</td>
-                        <td>Free</td>
-                    </tr>
-                    <tr>
-                        <td>October 15th</td>
-                        <td>2:00 PM</td>
-                        <td>Children's Story Time</td>
-                        <td>Kids Corner</td>
-                        <td>Free</td>
-                    </tr>
-                    <tr>
-                        <td>October 18th</td>
-                        <td>7:00 PM</td>
-                        <td>Poetry Night: Open Mic</td>
-                        <td>Main Reading Area</td>
-                        <td>Free</td>
-                    </tr>
-                    <tr>
-                        <td>October 22nd</td>
-                        <td>11:00 AM</td>
-                        <td>Writing Workshop: "Crafting Characters"</td>
-                        <td>Community Room</td>
-                        <td>$15</td>
-                    </tr>
-                    <tr>
-                        <td>October 25th</td>
-                        <td>6:00 PM</td>
-                        <td>Halloween Themed Book Reading</td>
-                        <td>Main Reading Area</td>
-                        <td>Free</td>
-                    </tr>
-                    <tr>
-                        <td>October 31st</td>
-                        <td>3:00 PM</td>
-                        <td>Kids Halloween Costume Story Time</td>
-                        <td>Kids Corner</td>
-                        <td>Free</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- Regular Programs Section -->
-        <section>
-            <h2>Regular Programs</h2>
-            <div>
-                <div>
-                    <h3>Book Club</h3>
-                    <p><strong>When:</strong> Second Thursday of every month at 6:30 PM</p>
-                    <p><strong>Where:</strong> Community Room</p>
-                    <p>Join our friendly book club for lively discussions about contemporary literature. Each month we select a new book and explore themes, characters, and the author's craft. New members always welcome!</p>
-                    <p><strong>Current Read:</strong> "Educated" by Tara Westover</p>
-                </div>
-                
-                <div>
-                    <h3>Children's Story Time</h3>
-                    <p><strong>When:</strong> Every Saturday at 2:00 PM</p>
-                    <p><strong>Where:</strong> Kids Corner</p>
-                    <p>Bring your little ones for an interactive story time featuring classic and new children's books. We include songs, activities, and sometimes special guest readers. Perfect for ages 3-8.</p>
-                </div>
-                
-                <div>
-                    <h3>Poetry Night</h3>
-                    <p><strong>When:</strong> Third Friday of every month at 7:00 PM</p>
-                    <p><strong>Where:</strong> Main Reading Area</p>
-                    <p>Share your original poetry or listen to others read their work. This supportive open mic environment welcomes poets of all skill levels. Sign-up starts 30 minutes before the event.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Event Registration Form -->
-        <section>
-            <h2>Event Registration</h2>
-            <p>Register for workshops and special events that require advance booking. For regular programs like book club and story time, just show up!</p>
-            
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Registration Information</legend>
-                    
-                    <label for="eventSelect">Select Event:</label>
-                    <select id="eventSelect" name="eventSelect" required>
-                        <option value="">Choose an event...</option>
-                        <option value="rebecca-stone">Author Reading: Rebecca Stone (Oct 5)</option>
-                        <option value="writing-workshop">Writing Workshop: "Crafting Characters" (Oct 22) - $15</option>
-                        <option value="halloween-reading">Halloween Themed Book Reading (Oct 25)</option>
-                        <option value="kids-halloween">Kids Halloween Costume Story Time (Oct 31)</option>
-                    </select>
-                    
-                    <label for="attendeeName">Full Name:</label>
-                    <input type="text" id="attendeeName" name="attendeeName" required>
-                    
-                    <label for="attendeeEmail">Email:</label>
-                    <input type="email" id="attendeeEmail" name="attendeeEmail" required>
-                    
-                    <label for="attendeePhone">Phone Number:</label>
-                    <input type="tel" id="attendeePhone" name="attendeePhone">
-                    
-                    <label for="numberOfAttendees">Number of Attendees:</label>
-                    <select id="numberOfAttendees" name="numberOfAttendees" required>
-                        <option value="1">1 person</option>
-                        <option value="2">2 people</option>
-                        <option value="3">3 people</option>
-                        <option value="4">4 people</option>
-                        <option value="5">5+ people (please call)</option>
-                    </select>
-                </fieldset>
-                
-                <fieldset>
-                    <legend>Special Accommodations</legend>
-                    <input type="checkbox" id="wheelchair" name="accommodations" value="wheelchair">
-                    <label for="wheelchair">Wheelchair accessible seating needed</label>
-                    
-                    <input type="checkbox" id="largeprint" name="accommodations" value="largeprint">
-                    <label for="largeprint">Large print materials needed</label>
-                    
-                    <input type="checkbox" id="interpreter" name="accommodations" value="interpreter">
-                    <label for="interpreter">Sign language interpreter requested</label>
-                </fieldset>
-                
-                <label for="comments">Additional Comments or Questions:</label>
-                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Let us know about any special requests or dietary restrictions for events with refreshments..."></textarea>
-                
-                <button type="submit">Register for Event</button>
-                <button type="reset">Clear Form</button>
-            </form>
-        </section>
-
-        <!-- Past Events Section -->
-        <section>
-            <h2>Recent Past Events</h2>
-            <p>Take a look at some of our recent successful events:</p>
-            <ul>
-                <li><strong>September 20th:</strong> Local Author Showcase featuring three community writers</li>
-                <li><strong>September 15th:</strong> Book Club Discussion: "The Seven Husbands of Evelyn Hugo"</li>
-                <li><strong>September 8th:</strong> Children's Craft & Story: "Make Your Own Bookmark"</li>
-                <li><strong>August 25th:</strong> Summer Reading Program Awards Ceremony</li>
-                <li><strong>August 18th:</strong> Poetry Workshop: "Finding Your Voice"</li>
-            </ul>
-        </section>
-
-        <!-- Contact for Events -->
-        <section>
-            <h2>Event Information & Booking</h2>
-            <p>Have questions about our events or interested in hosting your own literary event at Book Haven? Contact our Events Coordinator:</p>
-            <p><strong>Emily Chen</strong><br>
-            Events Coordinator<br>
-            Phone: (555) 123-BOOK ext. 3<br>
-            Email: events@bookhavenbookstore.com</p>
-            
-            <p>We're always open to suggestions for future events and love collaborating with local authors, book clubs, and literary organizations.</p>
+            <h2>Upcoming Events</h2>
+            <img src="https://via.placeholder.com/1200x400.png?text=Event+Photo" alt="Author Reading Event" width="100%">
+            <p>Join us for community readings, author signings, and book club meetups. Check back often for the latest dates!</p>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
-        <div>
-            <h3>Contact Information</h3>
-            <p>123 Literary Lane, Booktown, ST 12345</p>
-            <p>Phone: (555) 123-BOOK</p>
-            <p>Email: info@bookhavenbookstore.com</p>
-        </div>
-        <div>
-            <h3>Follow Us</h3>
-            <p>Facebook | Instagram | Twitter</p>
-        </div>
-        <div>
-            <h3>Newsletter</h3>
-            <p>Subscribe for updates on new arrivals and events!</p>
-            <form>
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-        <p>&copy; 2024 Book Haven Bookstore. All rights reserved.</p>
+        <p>123 Literary Lane, Booktown, ST 12345 | (555) 123-BOOK</p>
     </footer>
 </body>
 </html>
