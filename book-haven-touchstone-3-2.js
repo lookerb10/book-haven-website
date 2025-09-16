@@ -1,5 +1,3 @@
-<!-- If using Option B (inline), paste this whole block (without the outer <script src>) -->
-<script>
 /* Book Haven - Touchstone 3.2: Web Storage (sessionStorage + localStorage)
    - Cart items are stored in sessionStorage (per-tab) under CART_KEY.
    - View Cart reads from sessionStorage to render items.
@@ -235,4 +233,3 @@
   wireAddToCartButtons();
   wireContactForm();
 })();
-</script>
